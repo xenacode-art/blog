@@ -1,0 +1,163 @@
+/* Created by kaja @xenacodes*/
+
+body{
+font-size:30px;
+font-family:"Monotype Corsiva",cursive;
+background-image:linear-gradient(black,black,black,darkviolet,balck);
+margin-left:10px;
+margin-right:10px;
+}
+
+h1{
+font-size:30px;
+position:fixed;
+color:#ee3e80;
+background-color:black;
+z-index:10;
+width:100%;
+top: 0px; 
+left: 0px; 
+margin: 0px; 
+padding: 10px; 
+}
+
+h1:hover{
+font-size:45px;
+font-style:bold;
+color:violet;
+}
+
+ul{
+position:relative;
+list-style-type:circle;
+}
+
+a:link{
+color:blue;
+text-decoration:none;
+}
+
+a:visited{
+color:blue;
+text-decoration:none;
+}
+
+a:hover{
+font-size:35px;
+color:blue;
+text-decoration:underline;
+}
+
+a:active{
+color:violet;
+text-decoration:underline;
+background-color:yellow;
+}
+
+h2{
+color:orange;
+text-align:center;
+font-size:50px;
+border:20px;
+border-style:ridge;
+border-color:cyan;
+padding:10px;
+border-top-right-radius:100px;
+border-bottom-left-radius:100px;
+}
+
+h3{
+color:orange;
+text-align:center;
+font-size:50px;
+border:10px;
+border-style:dashed;
+border-color:cyan;
+padding:10px;
+border-top-left-radius:50px;
+border-bottom-right-radius:50px;
+}
+
+@keyframes name{
+25%{color:red;border-color:cyan; border-left-color:yellow;}
+50%{color:blue;border-color:cyan; border-top-color:orange;}
+75%{color:green;border-color:cyan; border-right-color:purple;}
+100%{color:yellow;border-color:cyan; border-bottom-color:orange;}
+}
+
+h2:hover{
+animation-name:name;
+animation-iteration-count:infinite;
+animation-duration:0.5s;
+}
+
+h3:hover{
+font-size:70px;
+}
+
+c:hover{
+font-size:40px;
+}
+
+ol{
+list-style-type:upper-roman;
+}
+
+img.left{
+height:190px;
+width:300px;
+}
+
+img.center{
+height:190px;
+width:300px;
+}
+
+img.right{
+height:190px;
+width:300px;
+}
+
+img:hover{
+height:320px;
+width:520px;
+}
+
+p.center{
+text-align:center;
+}
+
+div{
+border:10px;
+border-color:darkviolet;
+border-style:double;
+}
+
+blockquote{
+text-align:right;
+float:right;
+border-width:5px 0px 5px 0px;
+border-color:grey;
+border-style:solid;
+color:grey;
+}
+
+blockquote:hover{
+color:#000000;
+}
+
+h4{
+color:black;
+font-size:40px;
+}
+
+h4:hover{
+color:#ee3e80;
+}
+
+p.thanks{
+    text-align:right;
+    border:5px;
+    border-style:double;
+    border-color:darkviolet;
+}
